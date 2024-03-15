@@ -159,7 +159,7 @@ footer li {
 #call-to-action span {
   font-weight:bold;
 }
-#call-to-action p {
+#call-to-action > p {
   width:100%;
   max-width:582px;
   line-height: 1.8;
@@ -168,7 +168,7 @@ footer li {
 #call-to-action div {
   display:flex;
   justify-content: space-evenly;
-  gap:15px;
+  gap:5px;
 }
 
 #call-to-action div p {
@@ -188,7 +188,6 @@ footer li {
 #call-to-action div p:hover{
   background-color:#1b1d1e;
   color:white;
-  padding:7px 20px;
   border-radius:50px;
   cursor:pointer;
 }
