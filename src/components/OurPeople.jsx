@@ -5,7 +5,7 @@ import { staff } from '../staff';
 export default function OurPeople() {
   return (
     <div>
-      <Heading title={'Our People'} imgSrc={'https://winegardner.com/wp-content/uploads/2024/01/Abstract-2-705x471.jpg'}/>
+      <Heading title={'Our People'} imgSrc={'https://winegardner.com/wp-content/uploads/2024/01/Quality-People-2.jpg'} position='0 -150px'/>
 
       <ul id="our-people">
         {staff.map((person) => {
